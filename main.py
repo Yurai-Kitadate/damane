@@ -11,3 +11,7 @@ for i in range(1,4):
         print("Round {}: Tails".format(i))
         t_cnt += 1
 print("Heads: {}, Tails: {}".format(h_cnt,t_cnt))
+if h_cnt > t_cnt:
+    print("You won")
+else:
+    print("You lost")
