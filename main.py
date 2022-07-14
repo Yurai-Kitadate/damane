@@ -1,3 +1,6 @@
+print("Who are you?")
+s = input("> ")
+print("Hello, {}!".format(s))
 print("Tossing a coin...")
 h_cnt = 0
 t_cnt = 0
