@@ -15,6 +15,6 @@ for i in range(1,4):
         t_cnt += 1
 print("Heads: {}, Tails: {}".format(h_cnt,t_cnt))
 if h_cnt > t_cnt:
-    print("You won")
+    print("{} won".format(s))
 else:
-    print("You lost")
+    print("{} lost".format(s))
